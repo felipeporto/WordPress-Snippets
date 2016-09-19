@@ -1,3 +1,5 @@
+<?php
+
 function redirect_subcategory( $wp_query ) {
 	if ( $wp_query->is_category() && $wp_query->is_main_query() ) {
 		
